@@ -21,7 +21,14 @@ public class HomeController {
 
     @RequestMapping (value="/", method= RequestMethod.GET)
     public String home() {
+
         return "home";
+    }
+
+
+    @RequestMapping (value="/blank_page", method= RequestMethod.GET)
+    public String blank() {
+        return "blank";
     }
 
 
