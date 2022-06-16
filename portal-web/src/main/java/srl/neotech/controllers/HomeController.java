@@ -19,9 +19,9 @@ public class HomeController {
     Resource appConfig;
 
 
-    @RequestMapping (value="/", method= RequestMethod.GET)
+    @RequestMapping (value="/ricerca", method= RequestMethod.GET)
     public String home() {
-        return "home";
+        return "ricerca_risorsa";
     }
 
 
