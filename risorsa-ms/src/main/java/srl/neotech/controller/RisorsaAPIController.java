@@ -1,4 +1,4 @@
-package srl.neotech.controllers;
+package srl.neotech.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -23,7 +23,7 @@ public class RicercaAPIController {
 
     @ResponseBody
     @GetMapping(value = "/api/getRisorsaPerId", produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseBase getRisorsaPerId(@RequestParam("risorsa_id") Integer id) {
+    public ResponseBase getRisorsaPerId(@RequestParam("risorsa_id") String id) {
         ResponseBase responseBase = new ResponseBase();
 
 
@@ -41,11 +41,12 @@ public class RicercaAPIController {
 
     @ResponseBody
     @GetMapping(value= "api/inserisciRisorsa",produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseBase inserisciRisorsa(@RequestParam("risorsa_id")Integer risorsa_id,@RequestParam("risorsa_nominativo")String risorsa_nominativo){
+    public ResponseBase inserisciRisorsa(@RequestParam("risorsa_id")String risorsa_id,@RequestParam("risorsa_nominativo")
+                                         String risorsa_nominativo,@RequestParam("url_cv")String url_cv){
         ResponseBase responseBase=new ResponseBase();
 
         try {
-            aggiungiRisorsaServices.inserisciRisorsa(risorsa_id, risorsa_nominativo);
+            aggiungiRisorsaServices.inserisciRisorsa(risorsa_id, risorsa_nominativo, url_cv);
             responseBase.setCode("OK");
         }catch(Exception e){
             responseBase.setCode("KO");
