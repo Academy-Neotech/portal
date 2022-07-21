@@ -1,3 +1,5 @@
-srl/neotech/controllers/HomeController.class
-srl/neotech/filters/HTTResponseHeader.class
 srl/neotech/configuration/BootApplication.class
+srl/neotech/model/Cliente.class
+srl/neotech/controllers/HomeController.class
+srl/neotech/requestresponse/ResponseBase.class
+srl/neotech/filters/HTTResponseHeader.class

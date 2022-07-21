@@ -25,6 +25,18 @@ public class HomeController {
     }
 
 
+    @RequestMapping (value="/ricerca_cliente", method= RequestMethod.GET)
+    public String ricerca_cliente() {
+        return "ricerca_cliente";
+    }
+
+
+    @RequestMapping (value="/inserisci_cliente", method= RequestMethod.GET)
+    public String inserisci_cliente() {
+        return "inserisci_cliente";
+    }
+
+
     @ResponseBody
     @GetMapping(value="/getAppConfig")
     public String getAppConfig() throws IOException {

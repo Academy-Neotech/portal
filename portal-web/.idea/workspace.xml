@@ -4,7 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e84db34b-04b2-4ed0-afde-8e0bb3ec5183" name="Changes" comment="" />
+    <list default="true" id="e84db34b-04b2-4ed0-afde-8e0bb3ec5183" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/controllers/APIController" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/insert_client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/neotech_ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/search_client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/inserisci_cliente.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/ricerca_cliente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/.settings/.jsdtscope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/src/main/java/srl/neotech/configuration/BootApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/src/main/java/srl/neotech/contracts/ResponseBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/src/main/resources/dozer-mapping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/target/classes/dozer-mapping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/target/classes/srl/neotech/configuration/BootApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/target/classes/srl/neotech/contracts/ResponseBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente-ms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/srl/neotech/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/blank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/srl/neotech/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/srl/neotech/controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,14 +85,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/neotech/gitclones/templates/template-sb-web&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/neotech/gitclones/portal/cliente_ms"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/template_cliente_ms/template-sbh-ms/src/main/java/srl/neotech/model" />
+      <recent name="$PROJECT_DIR$/template_cliente_ms" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Maven Run" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -86,5 +140,16 @@
   <component name="UnknownFeatures">
     <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
     <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

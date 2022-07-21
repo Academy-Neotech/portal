@@ -7,15 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="template-sbh-ms" />
-        <module name="template-sb-web" />
-        <module name="portal-web" />
+        <module name="cliente_ms" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="portal-web" options="-parameters" />
-      <module name="template-sb-web" options="-parameters" />
+      <module name="cliente_ms" options="-parameters" />
       <module name="template-sbh-ms" options="-parameters" />
     </option>
   </component>
