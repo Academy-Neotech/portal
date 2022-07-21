@@ -8,10 +8,15 @@ import srl.neotech.entity.Risorsa;
 
 import java.util.List;
 
-public interface RisorsaJPARepository extends JpaRepository<Risorsa, Integer> {
+public interface RisorsaJPARepository extends JpaRepository<Risorsa, String> {
 
     @Query("")
-    public List<Risorsa> getRisorsaPerId(@Param("id") Integer id);
+    public List<Risorsa> getRisorsaPerNominativo(@Param("nominativo") String risorsa_nominativo);
+
+
+
+
+
 
 
 }

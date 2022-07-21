@@ -4,18 +4,18 @@ import java.util.Date;
 
 public class Risorsa {
 
-    protected Integer risorsa_id;
+    protected String risorsa_id;
     protected String risorsa_nominativo;
-    protected Integer stato_id;
+    protected String stato_id;
     protected Integer cliente_id;
     protected Date termine_occupazione;
     protected String url_cv;
 
-    public Integer getRisorsa_id() {
+    public String getRisorsa_id() {
         return risorsa_id;
     }
 
-    public void setRisorsa_id(Integer risorsa_id) {
+    public void setRisorsa_id(String risorsa_id) {
         this.risorsa_id = risorsa_id;
     }
 
@@ -27,11 +27,11 @@ public class Risorsa {
         this.risorsa_nominativo = risorsa_nominativo;
     }
 
-    public Integer getStato_id() {
+    public String getStato_id() {
         return stato_id;
     }
 
-    public void setStato_id(Integer stato_id) {
+    public void setStato_id(String stato_id) {
         this.stato_id = stato_id;
     }
 

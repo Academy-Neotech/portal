@@ -1,2 +1,4 @@
-package srl.neotech.model;public enum Stato {
+package srl.neotech.model;
+
+public enum Stato {
 }

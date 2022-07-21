@@ -13,8 +13,10 @@ public class RicercaRisorsaServices {
     @Autowired
     RicercaRisorsaDAO ricercaRisorsaDAO;
 
-    public List<Risorsa> getRisorsaPerId(Integer id){
-        return ricercaRisorsaDAO.getRisorsaPerId(id);
+    public List<Risorsa> getRisorsaPerNominativo(String risorsa_nominativo){
+        return ricercaRisorsaDAO.getRisorsaPerNominativo(risorsa_nominativo);
     }
+
+
 
 }

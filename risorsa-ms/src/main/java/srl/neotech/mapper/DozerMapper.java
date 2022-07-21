@@ -1,7 +1,7 @@
 package srl.neotech.mapper;
 
 import com.github.dozermapper.core.DozerBeanMapperBuilder;
-import org.apache.catalina.mapper.Mapper;
+import com.github.dozermapper.core.Mapper;
 
 public class DozerMapper {
 

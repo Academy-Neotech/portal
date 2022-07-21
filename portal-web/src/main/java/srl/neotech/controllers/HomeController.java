@@ -20,10 +20,14 @@ public class HomeController {
 
 
     @RequestMapping (value="/ricerca", method= RequestMethod.GET)
-    public String home() {
+    public String ricerca() {
         return "ricerca_risorsa";
     }
 
+    @RequestMapping (value="/inserisci", method= RequestMethod.GET)
+    public String inserisci() {
+        return "inserisci_risorsa";
+    }
 
     @ResponseBody
     @GetMapping(value="/getAppConfig")
@@ -32,6 +36,8 @@ public class HomeController {
         appConfigFile= appConfigFile.replace("{clientId}", UuidUtil.getTimeBasedUuid().toString());
         return appConfigFile;
     }
+
+
 
 
 

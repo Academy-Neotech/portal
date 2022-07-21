@@ -11,7 +11,8 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="static/plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
-
+  <link rel="stylesheet" href="static/css/adminlte.min.css">
+  <link rel="stylesheet" href="static/css/fm.tagator.jquery.css">
 
 
 </head>
@@ -832,7 +833,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Ricerca Risorsa</h1>
+            <h1>Inserisci Risorsa</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -847,75 +848,47 @@
     <!-- Main content -->
     <section class="content">
 
-     <!-- Inserire struttura risorsa con tabella e dropdown -->
+      <!-- Inserire struttura risorsa con tabella e dropdown -->
 
-    <!-- Ricerca per nome-->
+      <!-- Ricerca per nome-->
 
 
 
       <div class="card-body">
         <div class="form-group">
-          <label for="nominativo">Nominativo</label>
-          <input class="form-control" id="nominativo" placeholder="Enter name">
+          <label for="nominativo-inserimento">Nominativo</label>
+          <input class="form-control" id="nominativo-inserimento" placeholder="Enter name">
         </div>
+
+          <div class="form-group">
+            <label for="cv-inserimento">Inserimento CV</label>
+            <input class="form-control" id="cv-inserimento" placeholder="Enter cv.pdf">
+          </div>
         <div class="form-group">
-          <label for="skill">Skill Tag Input</label>
+          <label for="skill-inserimento">Skill Tag Input</label>
 
-          <input  class="form-control" id="skill" name="example" value="jQuery,Script,Net" placeholder="Please input some tags">
+          <input  class="form-control" id="skill-inserimento" name="example" value="jQuery,Script,Net" placeholder="Please input some tags">
 
         </div>
 
-
-
-
-        <!-- Large button groups (default and split) -->
-        <div class="btn-group col-5">
-          <button class="btn btn-secondary btn-lg dropdown-toggle" id="cliente" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Cliente
-          </button>
-          <ul class="dropdown-menu">
-            ...
-          </ul>
-        </div>
-        <div class="btn-group col-5">
-          <button class="btn btn-secondary btn-lg dropdown-toggle" id="stato" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Stato
-          </button>
-          <ul class="dropdown-menu">
-            ...
-          </ul>
-        </div>
-
-
-      <div class="col-11">
-        <button type="button"  id="btn_ricerca"  class="btn btn-primary btn-lg float-right">Search</button>
       </div>
 
 
-
-      <!-- Tabella (Nominativo, Stato, Cliente Associato alla Risorsa, Cv)-->
-
-      <table class="table table-white table-striped" id="listaRisorse">
-
-        <tr>
-          <th scope="col">ID</th>
-          <th scope="col">Nominativo</th>
-          <th scope="col">Stato</th>
-          <th scope="col">Termine Occupazione</th>
-          <th scope="col">Cliente Associato</th>
-          <th scope="col">CV</th>
-        </tr>
-        <tbody>
-
-        <tr>
-
-        </tr>
-
-        </tbody>
-      </table>
+        <!-- Large button groups (default and split) -->
 
 
-      <!-- Fine struttura risorsa con tabella e dropdown -->
+        <div class="col-12">
+          <button type="button"  id="btn_inserimento"  class="btn btn-primary btn-lg float-right">Inserisci</button>
+        </div>
+
+
+
+        <!-- Tabella (Nominativo, Stato, Cliente Associato alla Risorsa, Cv)-->
+
+
+
+
+        <!-- Fine struttura risorsa con tabella e dropdown -->
     </section>
     <!-- /.content -->
   </div>
@@ -938,6 +911,7 @@
 
 
 <script src="static/plugins/jquery/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/xcash/bootstrap-autocomplete@master/dist/latest/bootstrap-autocomplete.min.js"></script>
 <script src="static/js/neotech_ajax.js"></script>
 <script src="static/js/ricerca_risorsa.js"></script>

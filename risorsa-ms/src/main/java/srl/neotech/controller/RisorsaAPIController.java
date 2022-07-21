@@ -11,10 +11,11 @@ import srl.neotech.requestresponse.ResponseBase;
 import srl.neotech.services.AggiungiRisorsaServices;
 import srl.neotech.services.RicercaRisorsaServices;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-public class RicercaAPIController {
+public class RisorsaAPIController {
     @Autowired
     RicercaRisorsaServices ricercaRisorsaServices;
     @Autowired
@@ -22,13 +23,13 @@ public class RicercaAPIController {
 
 
     @ResponseBody
-    @GetMapping(value = "/api/getRisorsaPerId", produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseBase getRisorsaPerId(@RequestParam("risorsa_id") String id) {
+    @GetMapping(value = "/api/getRisorsaPerNominativo", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseBase getRisorsaPerNominativo(@RequestParam("risorsa_nominativo") String risorsa_nominativo) {
         ResponseBase responseBase = new ResponseBase();
 
 
         try {
-            List<Risorsa> risorsaList = ricercaRisorsaServices.getRisorsaPerId(id);
+            List<Risorsa> risorsaList = ricercaRisorsaServices.getRisorsaPerNominativo(risorsa_nominativo);
             responseBase.setSimpleData(risorsaList);
             responseBase.setCode("OK");
         } catch (Exception e) {
@@ -41,8 +42,7 @@ public class RicercaAPIController {
 
     @ResponseBody
     @GetMapping(value= "api/inserisciRisorsa",produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseBase inserisciRisorsa(@RequestParam("risorsa_id")String risorsa_id,@RequestParam("risorsa_nominativo")
-                                         String risorsa_nominativo,@RequestParam("url_cv")String url_cv){
+    public ResponseBase inserisciRisorsa(@RequestParam("risorsa_id")String risorsa_id,@RequestParam("risorsa_nominativo")String risorsa_nominativo,@RequestParam("url_cv")String url_cv){
         ResponseBase responseBase=new ResponseBase();
 
         try {
@@ -56,7 +56,23 @@ public class RicercaAPIController {
         return responseBase;
     }
 
+    @ResponseBody
+    @GetMapping(value = "api/autocompleteNominativo", produces = MediaType.APPLICATION_JSON_VALUE)
+    public List<String>autocompleteNominativo(@RequestParam (name = "q")String testo){
+
+        ArrayList<String>responseRisorseFromDb=new ArrayList<String>();
+
+        List<Risorsa>autocompleteNominativo=ricercaRisorsaServices.getRisorsaPerNominativo(testo);
+
+        for (Risorsa risorsa:autocompleteNominativo){
+            responseRisorseFromDb.add(risorsa.getRisorsa_nominativo());
+        }
+
+        return responseRisorseFromDb;
+    }
+
+    }
 
 
 
-}
+
