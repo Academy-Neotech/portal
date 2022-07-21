@@ -37,14 +37,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/neotech/gitclones/templates/template-sb-web&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/neotech/gitclones/portal/task-ms",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/template-task-ms" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/template-task-ms/template-task-ms/src/main/java/srl/neotech/Controller" />
+      <recent name="$PROJECT_DIR$/template-task-ms/template-task-ms/src/main/java/srl/neotech/TaskModel" />
+      <recent name="$PROJECT_DIR$/template-task-ms/template-task-ms/src/main/java/srl/neotech/srl.neotech.mapper" />
+      <recent name="$PROJECT_DIR$/template-task-ms/template-task-ms/src/main/java/srl/neotech/TaskDao" />
+      <recent name="$PROJECT_DIR$/template-task-ms/template-task-ms/src/main/java/srl/neotech/TaskEntity" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Maven Run" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
