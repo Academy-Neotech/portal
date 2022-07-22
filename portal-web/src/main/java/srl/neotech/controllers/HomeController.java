@@ -40,6 +40,16 @@ public class HomeController {
         return "inserisci_cliente";
     }
 
+    @RequestMapping (value="/taskAdd", method= RequestMethod.GET)
+    public String taskAdd() {
+        return "task_add";
+    }
+
+    @RequestMapping (value="/taskSearch", method= RequestMethod.GET)
+    public String taskSearch() {
+        return "task_search";
+    }
+
 
     @ResponseBody
     @GetMapping(value="/getAppConfig")

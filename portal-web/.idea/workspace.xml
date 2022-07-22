@@ -212,11 +212,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/task_sprint01
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< HEAD
     "last_opened_file_path": "/home/neotech/gitclones/portal/cliente_ms"
   }
 }]]></component>
@@ -257,6 +261,23 @@
       <recent name="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/java/srl/neotech/controller" />
       <recent name="$PROJECT_DIR$/template-risorsa-ms" />
 >>>>>>> origin/risorse_sprint01
+=======
+    "last_opened_file_path": "/home/neotech/gitclones/portal/task-ms",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/template-task-ms" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/template-task-ms/template-task-ms/src/main/java/srl/neotech/Controller" />
+      <recent name="$PROJECT_DIR$/template-task-ms/template-task-ms/src/main/java/srl/neotech/TaskModel" />
+      <recent name="$PROJECT_DIR$/template-task-ms/template-task-ms/src/main/java/srl/neotech/srl.neotech.mapper" />
+      <recent name="$PROJECT_DIR$/template-task-ms/template-task-ms/src/main/java/srl/neotech/TaskDao" />
+      <recent name="$PROJECT_DIR$/template-task-ms/template-task-ms/src/main/java/srl/neotech/TaskEntity" />
+>>>>>>> origin/task_sprint01
     </key>
   </component>
   <component name="RunManager">
