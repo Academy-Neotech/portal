@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e84db34b-04b2-4ed0-afde-8e0bb3ec5183" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/controllers/APIController" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/insert_client.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/neotech_ajax.js" afterDir="false" />
@@ -52,16 +53,136 @@
       <change beforePath="$PROJECT_DIR$/target/classes/srl/neotech/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/srl/neotech/controllers/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/portal-web.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/portal-web.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/requestresponse/RicercaRisorsaRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/controller/RisorsaAPIController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/dao/AggiungiRisorsaDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/dao/RicercaRisorsaDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Cliente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/ClienteHasServizio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/ClienteHasServizioId.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Deliverable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Risorsa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/RisorsaHasSkill.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/RisorsaHasSkillId.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Servizio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Skill.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Sprint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Stato.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/TipoDeliverable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Utente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/mapper/DozerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/model/Risorsa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/model/Stato.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/repository/RisorsaJPARepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/requestresponse/ResponseBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/services/AggiungiRisorsaServices.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/services/RicercaRisorsaServices.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/risorsa-ms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/target/risorsa-ms.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/srl/neotech/configuration/BootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/configuration/BootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/srl/neotech/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/neotech_ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/neotech_ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/ricerca_risorsa.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/ricerca_risorsa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/inserisci_risorsa.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/inserisci_risorsa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/ricerca_risorsa.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/ricerca_risorsa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/srl/neotech/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/srl/neotech/controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/.settings/.jsdtscope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/java/srl/neotech/configuration/BootApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/java/srl/neotech/contracts/ResponseBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/java/srl/neotech/controller/RisorsaAPIController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/java/srl/neotech/dao/AggiungiRisorsaDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/java/srl/neotech/dao/RicercaRisorsaDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/java/srl/neotech/entity/Risorsa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/java/srl/neotech/mapper/DozerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/java/srl/neotech/model/Risorsa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/java/srl/neotech/repository/RisorsaJPARepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/java/srl/neotech/requestresponse/ResponseBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/java/srl/neotech/services/AggiungiRisorsaServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/java/srl/neotech/services/RicercaRisorsaServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/resources/dozer-mapping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/target/classes/dozer-mapping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/target/classes/srl/neotech/configuration/BootApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/target/classes/srl/neotech/contracts/ResponseBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/.idea/risorsa-ms.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/.jpb/jpb-settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/.jpb/jpb-settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/controller/RisorsaAPIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/controller/RisorsaAPIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/dao/AggiungiRisorsaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/dao/AggiungiRisorsaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/dao/RicercaRisorsaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/dao/RicercaRisorsaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/ClienteHasServizioId.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/ClienteHasServizioId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/RisorsaHasSkillId.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/RisorsaHasSkillId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/mapper/DozerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/mapper/DozerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/model/Risorsa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/model/Risorsa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/model/Stato.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/model/Stato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/repository/RisorsaJPARepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/repository/RisorsaJPARepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/services/AggiungiRisorsaServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/services/AggiungiRisorsaServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/services/RicercaRisorsaServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/services/RicercaRisorsaServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+>>>>>>> origin/risorse_sprint01
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -79,12 +200,18 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2ATwr2w51WAv7U32CedV76CkMmO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
@@ -97,6 +224,39 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/template_cliente_ms/template-sbh-ms/src/main/java/srl/neotech/model" />
       <recent name="$PROJECT_DIR$/template_cliente_ms" />
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/neotech/gitclones/portal/risorsa-ms&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalResources&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="srl.neotech.repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/java/srl/neotech/services" />
+      <recent name="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/java/srl/neotech/dao" />
+      <recent name="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/java/srl/neotech" />
+      <recent name="$PROJECT_DIR$/template-risorsa-ms/template-risorsa-ms/src/main/java/srl/neotech/controller" />
+      <recent name="$PROJECT_DIR$/template-risorsa-ms" />
+>>>>>>> origin/risorse_sprint01
     </key>
   </component>
   <component name="RunManager">
@@ -152,4 +312,11 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+>>>>>>> origin/risorse_sprint01
 </project>

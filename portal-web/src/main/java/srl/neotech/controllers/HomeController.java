@@ -19,11 +19,15 @@ public class HomeController {
     Resource appConfig;
 
 
-    @RequestMapping (value="/", method= RequestMethod.GET)
-    public String home() {
-        return "home";
+    @RequestMapping (value="/ricerca", method= RequestMethod.GET)
+    public String ricerca() {
+        return "ricerca_risorsa";
     }
 
+    @RequestMapping (value="/inserisci", method= RequestMethod.GET)
+    public String inserisci() {
+        return "inserisci_risorsa";
+    }
 
     @RequestMapping (value="/ricerca_cliente", method= RequestMethod.GET)
     public String ricerca_cliente() {
@@ -44,6 +48,8 @@ public class HomeController {
         appConfigFile= appConfigFile.replace("{clientId}", UuidUtil.getTimeBasedUuid().toString());
         return appConfigFile;
     }
+
+
 
 
 

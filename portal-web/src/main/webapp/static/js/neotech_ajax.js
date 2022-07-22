@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 //Chiama l'API e ritorna il JSON
+=======
+>>>>>>> origin/risorse_sprint01
 function fire_ajax_post(send_url, send_data) {
 var response_data;
 
@@ -38,5 +41,9 @@ var response_data;
             console.log("ERROR : ", e);
         }
     });
+<<<<<<< HEAD
 
 }
+=======
+}
+>>>>>>> origin/risorse_sprint01
