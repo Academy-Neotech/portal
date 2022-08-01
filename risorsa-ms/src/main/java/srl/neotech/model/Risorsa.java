@@ -1,6 +1,6 @@
 package srl.neotech.model;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Risorsa {
 
@@ -8,8 +8,24 @@ public class Risorsa {
     protected String risorsa_nominativo;
     protected String stato_id;
     protected Integer cliente_id;
-    protected Date termine_occupazione;
+    protected LocalDate termine_occupazione;
     protected String url_cv;
+    protected String skill;
+
+    public Risorsa(){
+
+    }
+
+
+    public Risorsa(String risorsa_id, String risorsa_nominativo, String url_cv,Integer cliente_id) {
+        this.risorsa_id=risorsa_id;
+        this.risorsa_nominativo=risorsa_nominativo;
+        this.url_cv=url_cv;
+        this.cliente_id=cliente_id;
+    }
+
+
+
 
     public String getRisorsa_id() {
         return risorsa_id;
@@ -43,11 +59,11 @@ public class Risorsa {
         this.cliente_id = cliente_id;
     }
 
-    public Date getTermine_occupazione() {
+    public LocalDate getTermine_occupazione() {
         return termine_occupazione;
     }
 
-    public void setTermine_occupazione(Date termine_occupazione) {
+    public void setTermine_occupazione(LocalDate termine_occupazione) {
         this.termine_occupazione = termine_occupazione;
     }
 
@@ -57,6 +73,14 @@ public class Risorsa {
 
     public void setUrl_cv(String url_cv) {
         this.url_cv = url_cv;
+    }
+
+    public String getSkill() {
+        return skill;
+    }
+
+    public void setSkill(String skill) {
+        this.skill = skill;
     }
 }
 

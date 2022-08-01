@@ -4,14 +4,260 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e84db34b-04b2-4ed0-afde-8e0bb3ec5183" name="Changes" comment="" />
+    <list default="true" id="e84db34b-04b2-4ed0-afde-8e0bb3ec5183" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/jpa-buddy-datasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/sonarlint/issuestore/3/a/3adde9d65e23a87372271a59540943fd498c9b98" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/sonarlint/issuestore/3/d/3d23373b2abc3e62060a351dc9ec5154b5f9361b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/sonarlint/issuestore/4/5/4581fbec37d9367b064b7740e2465f6b1d57cb77" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/sonarlint/issuestore/5/3/5377c62ca99d29f6fd8624e0ac3672d2bd7fe669" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/sonarlint/issuestore/7/4/74be524bd141f24f887a51b785aecdf0f33a3951" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/sonarlint/issuestore/8/5/85550c355c81caf5a216ed48c3298be2c644d789" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/sonarlint/issuestore/8/5/85d8685fd38ae9930b02cc086e107362a6b255dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/sonarlint/issuestore/b/0/b0871d31ddd79c81ffbb9a0caebb87759895ecc2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/sonarlint/issuestore/b/9/b9f94c9c337bd4f50b94ced5128a1701ce63bc63" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/sonarlint/issuestore/c/0/c0c52ae4feef6b2758a23eb242b97144a7fbc411" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/sonarlint/issuestore/c/d/cd91a10404e455a7ecd3d92775742856c0f0c22c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/sonarlint/issuestore/d/9/d9a592ce7adbd0bf8c165c4a5a2db71b54a788a0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/sonarlint/issuestore/e/5/e569f3a467cd9a7b25b01bcf837a0a6e2e7c9f47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/sonarlint/issuestore/e/a/ea8fbfd4396ccd180fa21dac1063cb3c90ad4ae1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/entity/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/entity/ClienteHasServizio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/entity/ClienteHasServizioId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/entity/Deliverable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/entity/Risorsa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/entity/RisorsaHasSkill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/entity/RisorsaHasSkillId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/entity/Servizio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/entity/Skill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/entity/Sprint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/entity/Stato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/entity/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/entity/TipoDeliverable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/entity/Utente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/requestresponse/AddClienteReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/requestresponse/GetClienteResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portal-web/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portal-web/src/main/webapp/static/js/remove.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portal-web/src/main/webapp/static/js/update_risorsa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/0/4/0410ab52603eb05920a1dc2586420866d7d2fce6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/0/a/0a29113a9b5c73167ecbd8f454c6d089b76c5c60" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/0/a/0ab5494bd2c68aa3c8301597a642ca3542c78945" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/0/b/0bd682ad790a1e3534d30dcdd69d3b274659f3a9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/0/e/0e8562501362ba71ca6bf764a3755687a6ebb94c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/1/6/16bf53f8402925f00d48f0826f1317f5ecf37dc5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/1/7/172668b1e518ff61cc0661d9ebba42feeec51193" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/2/8/28e4a2e57ea1412e35cd955351520c20c1e52c43" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/3/5/354079a72b91a4280407c16a36f47d1986fd85a5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/3/5/3590802b28d678f25ae307fce512b0256e760143" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/3/6/36b9f0d33e4b7e602e3cd701314fae81543db66f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/3/a/3adde9d65e23a87372271a59540943fd498c9b98" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/4/4/44d3869e4ab8f5a6660709b629065ab6e5795b01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/4/5/4581fbec37d9367b064b7740e2465f6b1d57cb77" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/4/6/46990cb941e618d1b1eead2785ccbdd25ab19492" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/4/8/48ce73c9653e82132b2687c37fa02a5ece4d8010" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/4/8/48e74eedd58b450fd0bc2699e4a39875eb985080" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/6/8/68551620133113f17da7e71a4e7ffc802afebc25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/7/2/7250bbb91e32501e5cb02e9b54054dc00cac8388" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/8/5/85aef4dd7ac54949c4d8a1fc9fb5fbe3e5867303" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/8/6/86df0cf9ba79715f62ccf843e9bd20d265b88f7d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/8/b/8b624f194ffa4bcd04c49523dded491e3741fbc3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/8/f/8f49d566bb6fbfba32753bddeb38f4e20717620f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/9/2/92d6d7811e468247e85fa720325623aa7179e0c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/9/4/943aa70b132048ecc9489a44c0b58a703cea20bc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/9/9/99d56a0536de7ba73be3bac0ffb18569b8d71ad6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/a/0/a0a24fe39c27819e24585b5db904f46b6a020776" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/a/5/a545cd8028cc5ff9cd91daaf7b1d2602e2920e49" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/a/5/a5b05a448639c57876ab774df070f3057bf4c9a8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/a/9/a992eeba5aaa6c64464cd33cf6ead2d0dc113b1c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/b/0/b0871d31ddd79c81ffbb9a0caebb87759895ecc2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/c/0/c0c52ae4feef6b2758a23eb242b97144a7fbc411" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/c/8/c8cb288c04fee82ed81fb7eeaa1e1b3ea20da607" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/c/d/cd91a10404e455a7ecd3d92775742856c0f0c22c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/d/3/d363f374ed231eaf50a6e7bc8162ca84c6de1b5f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/e/4/e4f693694b5b99e9b10488a7cd48c4ae032e81d8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/e/5/e569f3a467cd9a7b25b01bcf837a0a6e2e7c9f47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/e/a/ea8fbfd4396ccd180fa21dac1063cb3c90ad4ae1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/e/e/eeb5ad9499eb0e26e6bd8889fffd5968fc79d22e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/e/f/ef1c7febffd6d7658c6b3822cedbeba18b9af62b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/f/8/f8b41ce76d7b80d2b47e91b5f92c15f00eccf187" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/dao/RisorsaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/model/Skill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/repository/StatoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/requestresponse/GetRisorsaFromSkillRespo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/requestresponse/UpdateRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/services/RisorsaServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3adde9d65e23a87372271a59540943fd498c9b98" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46990cb941e618d1b1eead2785ccbdd25ab19492" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59ba5f7fd03164f7e417f3ce84d1c1ed1a33f5a9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/81feae0d5e44f3735f6ed1d186960cf892978354" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a992eeba5aaa6c64464cd33cf6ead2d0dc113b1c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0871d31ddd79c81ffbb9a0caebb87759895ecc2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0c52ae4feef6b2758a23eb242b97144a7fbc411" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd91a10404e455a7ecd3d92775742856c0f0c22c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e569f3a467cd9a7b25b01bcf837a0a6e2e7c9f47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea8fbfd4396ccd180fa21dac1063cb3c90ad4ae1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/controller/TaskAPIController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/entity/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/entity/ClienteHasServizio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/entity/ClienteHasServizioId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/entity/Deliverable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/entity/Risorsa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/entity/RisorsaHasSkill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/entity/RisorsaHasSkillId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/entity/Servizio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/entity/Skill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/entity/Sprint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/entity/Stato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/entity/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/entity/TipoDeliverable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/entity/Utente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/mapper/DozerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/repository/TaskJPARepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/requestresponse/GetTaskResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente_ms/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente_ms/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente_ms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente_ms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente_ms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente_ms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/controllers/ClienteAPIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/controllers/ClienteAPIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/dao/ClienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/dao/ClienteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/repository/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/repository/ClienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/services/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente_ms/src/main/java/srl/neotech/services/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente_ms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente_ms/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente_ms/src/main/resources/dozer-mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente_ms/src/main/resources/dozer-mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente_ms/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente_ms/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente_ms/target/classes/dozer-mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente_ms/target/classes/dozer-mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente_ms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente_ms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente_ms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente_ms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente_ms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente_ms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portal-web/src/main/java/srl/neotech/controllers/APIController" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente_ms/.idea/sonarlint/issuestore/0/e/0e8562501362ba71ca6bf764a3755687a6ebb94c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portal-web/src/main/webapp/static/js/ricerca_risorsa.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portal-web/src/main/webapp/static/js/ricerca_risorsa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/contracts/ResponseBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/requestresponse/ResponseBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/controller/RisorsaAPIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/controller/RisorsaAPIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/dao/AggiungiRisorsaDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/dao/RicercaRisorsaDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/ClienteHasServizio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/ClienteHasServizio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/ClienteHasServizioId.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/ClienteHasServizioId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/Deliverable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/Deliverable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/Risorsa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/Risorsa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/RisorsaHasSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/RisorsaHasSkill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/RisorsaHasSkillId.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/RisorsaHasSkillId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/Servizio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/Servizio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/Skill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/Sprint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/Sprint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/Stato.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/Stato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/TipoDeliverable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/TipoDeliverable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/entity/Utente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/model/Risorsa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/model/Risorsa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/model/Stato.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/model/Stato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/repository/RisorsaJPARepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/repository/RisorsaJPARepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/requestresponse/RicercaRisorsaRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/requestresponse/AddRisorsaRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/requestresponse/RicercaRisorsaResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/requestresponse/GetRisorsaResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/services/AggiungiRisorsaServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/java/srl/neotech/services/RicercaRisorsaServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/src/main/resources/dozer-mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/src/main/resources/dozer-mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/dozer-mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/dozer-mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/contracts/ResponseBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/controller/RisorsaAPIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/controller/RisorsaAPIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/dao/AggiungiRisorsaDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/dao/RicercaRisorsaDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/ClienteHasServizio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/ClienteHasServizio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/ClienteHasServizioId.class" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/ClienteHasServizioId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Deliverable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Deliverable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Risorsa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Risorsa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/RisorsaHasSkill.class" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/RisorsaHasSkill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/RisorsaHasSkillId.class" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/RisorsaHasSkillId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Servizio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Servizio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Skill.class" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Skill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Sprint.class" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Sprint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Stato.class" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Stato.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/TipoDeliverable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/TipoDeliverable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Utente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/entity/Utente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/model/Risorsa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/model/Risorsa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/model/Stato.class" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/model/Stato.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/repository/RisorsaJPARepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/repository/RisorsaJPARepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/services/AggiungiRisorsaServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/classes/srl/neotech/services/RicercaRisorsaServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/risorsa-ms.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/risorsa-ms.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../risorsa-ms/target/risorsa-ms.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../risorsa-ms/target/risorsa-ms.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/srl/neotech/contracts/ResponseBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/srl/neotech/taskDao/TaskDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/dao/TaskDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/srl/neotech/taskEntity/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/srl/neotech/taskModel/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/model/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/srl/neotech/taskService/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/srl/neotech/services/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/dozer-mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dozer-mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dozer-mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dozer-mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/srl/neotech/contracts/ResponseBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/srl/neotech/taskDao/TaskDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="com.haulmont.jpb.JpaEntity" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -24,23 +270,49 @@
     </option>
   </component>
   <component name="ProjectId" id="2ATwr2w51WAv7U32CedV76CkMmO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/neotech/gitclones/templates/template-sb-web&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/neotech/gitclones/portal/cliente_ms&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RunManager">
     <configuration name="Maven Run" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map>
+                <entry key="jdbc.class" value="com.mysql.cj.jdbc.Driver" />
+                <entry key="jdbc.password" value="neotech_password" />
+                <entry key="jdbc.port" value="3306" />
+                <entry key="jdbc.url" value="jdbc:mysql://ls-26c207022bc12b38953d520d538f58830fd2d34b.c2vqmqwr99tq.eu-central-1.rds.amazonaws.com:3306/portal" />
+                <entry key="jdbc.user" value="neotech_user" />
+              </map>
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
             <option name="profiles">
@@ -76,6 +348,21 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:javax.persistence:javax.persistence-api" />
     <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

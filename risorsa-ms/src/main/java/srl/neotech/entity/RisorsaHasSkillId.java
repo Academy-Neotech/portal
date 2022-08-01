@@ -10,11 +10,12 @@ import java.util.Objects;
 @Embeddable
 public class RisorsaHasSkillId implements Serializable {
     private static final long serialVersionUID = -8210152286106530757L;
+    @Column(name = "risorsa_id", nullable = false, length = 9)
     private String risorsaId;
 
+    @Column(name = "skill_id", nullable = false, length = 200)
     private String skillId;
 
-    @Column(name = "risorsa_id", nullable = false, length = 9)
     public String getRisorsaId() {
         return risorsaId;
     }
@@ -23,7 +24,6 @@ public class RisorsaHasSkillId implements Serializable {
         this.risorsaId = risorsaId;
     }
 
-    @Column(name = "skill_id", nullable = false, length = 200)
     public String getSkillId() {
         return skillId;
     }

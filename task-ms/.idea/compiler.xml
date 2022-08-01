@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="template-sbh-ms" />
         <module name="template-task-ms" />
+        <module name="task-ms" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="task-ms" options="-parameters" />
       <module name="template-sbh-ms" options="-parameters" />
       <module name="template-task-ms" options="-parameters" />
     </option>

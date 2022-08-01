@@ -6,6 +6,15 @@ $('#nominativo').autocomplete({
 });
 $('#nominativo').autocomplete();
 
+var stati=fire_ajax_pathvar("api/stato_t_f");
+      $.each(stati.responseJSON, function(i, stato)){
+      $('#stato').append($('<option>',{
+      value:stato.id,
+      value:stato.stato_descr
+      }));
+      }));
+
+
 var clienti=fire_ajax_pathvar("../api/clienteDropDown");
  $.each(clienti.responseJSON, function (i, cliente) {
     $('#cliente').append($('<option>', {

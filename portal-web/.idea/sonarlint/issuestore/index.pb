@@ -1,0 +1,21 @@
+
+Q
+!src/main/webapp/static/js/home.js,8/c/8c0b3b47cc5b505a65bb3bc8aa57051286510f83
+Z
+*src/main/webapp/static/js/insert_client.js,8/0/80ccfc6607d1527bf564e6fa87a189cc1183fc42
+Z
+*src/main/webapp/static/js/search_client.js,b/2/b274ea147cf2add1f844c7449e344e3d4c7db208
+^
+.src/main/webapp/static/js/inserisci_risorsa.js,4/f/4f90ee6c6b4444bdaba9ab070dd1d000adcf667f
+S
+#src/main/webapp/static/js/remove.js,f/3/f3bf7a2a63cdcd2a2036f7fdc4bcd8fa8ac416a4
+i
+9src/main/java/srl/neotech/controllers/HomeController.java,c/b/cb006f690882b03ac2848c386197c8ca95b74e31
+\
+,src/main/webapp/static/js/ricerca_risorsa.js,9/4/944b5e0dc56566446840134ad5ce7c6aebcdfcdd
+[
++src/main/webapp/static/js/update_risorsa.js,7/e/7eefd67ba76d2a6ab697f2da761b00f9b6bfba84
+Z
+*src/main/webapp/views/ricerca_risorsa.html,0/7/071afde6a11e285868e520d85ec8644ccc4f5b00
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

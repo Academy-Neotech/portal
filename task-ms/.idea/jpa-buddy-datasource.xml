@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="2a926a38-1e50-4dff-9284-ce6964e189a2" name="portal" url="jdbc:mysql://ls-26c207022bc12b38953d520d538f58830fd2d34b.c2vqmqwr99tq.eu-central-1.rds.amazonaws.com/portal?useSSL=false&amp;allowMultiQueries=true&amp;serverTimezone=UTC" driverClass="com.mysql.cj.jdbc.Driver" />
+    </data-sources>
+  </component>
+</project>

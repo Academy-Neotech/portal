@@ -6,6 +6,11 @@ public class Cliente {
     private String cliente_nome;
     private String stato_id;
 
+    public Cliente(){
+
+    }
+
+
     public Integer getCliente_id() {
         return cliente_id;
     }
@@ -29,4 +34,6 @@ public class Cliente {
     public void setStato_id(String stato_id) {
         this.stato_id = stato_id;
     }
+
+
 }
