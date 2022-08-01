@@ -10,6 +10,7 @@ import java.util.List;
 
 public interface RisorsaJPARepository extends JpaRepository<Risorsa, String> {
 
+
      @Query("select r from Risorsa r where r.risorsaNominativo= :nominativo")
      public List<srl.neotech.entity.Risorsa> get_risorsa(@Param("nominativo") String risorsa_nominativo);
 

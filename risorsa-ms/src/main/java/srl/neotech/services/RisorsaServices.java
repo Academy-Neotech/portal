@@ -15,7 +15,8 @@ public class RisorsaServices {
     RisorsaDAO risorsaDAO;
 
     public List<Risorsa> get_risorsa(String risorsa_nominativo){
-        return risorsaDAO.get_risorsa(risorsa_nominativo);
+
+        return    risorsaDAO.get_risorsa(risorsa_nominativo);
     }
 
     public List<srl.neotech.model.Skill>get_risorsa_from_skill(String id){

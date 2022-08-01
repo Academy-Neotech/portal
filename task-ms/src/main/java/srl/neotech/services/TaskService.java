@@ -22,7 +22,7 @@ public class TaskService {
         return taskDAO.get_task_by_id(id);
     }
 
-    public List<Task>get_task_b_client(Integer cliente_id){
+    public List<srl.neotech.model.Cliente>get_task_b_client(Integer cliente_id){
         return taskDAO.get_task_b_client(cliente_id);
     }
 

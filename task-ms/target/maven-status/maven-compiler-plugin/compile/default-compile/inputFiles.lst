@@ -1,6 +1,7 @@
 /home/neotech/gitclones/portal/task-ms/src/main/java/srl/neotech/mapper/DozerMapper.java
 /home/neotech/gitclones/portal/task-ms/src/main/java/srl/neotech/entity/ClienteHasServizio.java
 /home/neotech/gitclones/portal/task-ms/src/main/java/srl/neotech/entity/Skill.java
+/home/neotech/gitclones/portal/task-ms/src/main/java/srl/neotech/model/Cliente.java
 /home/neotech/gitclones/portal/task-ms/src/main/java/srl/neotech/entity/Sprint.java
 /home/neotech/gitclones/portal/task-ms/src/main/java/srl/neotech/entity/Risorsa.java
 /home/neotech/gitclones/portal/task-ms/src/main/java/srl/neotech/requestresponse/GetTaskResp.java

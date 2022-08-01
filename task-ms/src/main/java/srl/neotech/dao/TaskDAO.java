@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import srl.neotech.mapper.DozerMapper;
+import srl.neotech.model.Cliente;
 import srl.neotech.model.Task;
 import srl.neotech.repository.TaskJPARepository;
 
@@ -20,7 +21,7 @@ public class TaskDAO {
 
     public List<Task>get_task_by_id(Integer id){
         List<srl.neotech.entity.Task>entity=taskJPARepository.get_task_by_id(id);
-
+System.out.println(entity.size());
         List<Task>list_model_tasks=new ArrayList<>();
 
         for (srl.neotech.entity.Task task:entity) {
@@ -30,13 +31,13 @@ public class TaskDAO {
         return list_model_tasks;
     }
 
-    public List<Task>get_task_b_client(Integer cliente_id){
+    public List<Cliente>get_task_b_client(Integer cliente_id){
         List<srl.neotech.entity.Task>e=taskJPARepository.get_task_b_client(cliente_id);
 
-        List<Task>lmt=new ArrayList<>();
+        List<Cliente>lmt=new ArrayList<>();
 
         for (srl.neotech.entity.Task task:e) {
-            Task map=DozerMapper.getInstance().map(task,Task.class);
+            Cliente map=DozerMapper.getInstance().map(task,Cliente.class);
             lmt.add(map);
         }
         return lmt;

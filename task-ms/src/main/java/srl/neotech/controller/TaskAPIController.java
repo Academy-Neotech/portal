@@ -3,6 +3,7 @@ package srl.neotech.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
+import srl.neotech.model.Cliente;
 import srl.neotech.model.Task;
 import srl.neotech.requestresponse.GetTaskResp;
 import srl.neotech.requestresponse.ResponseBase;
@@ -36,7 +37,7 @@ try {
     public GetTaskResp getTaskRespByCli(@RequestParam("cliente_id")Integer cliente_id){
         GetTaskResp resp=new GetTaskResp();
         try {
-            List<Task>list=taskService.get_task_b_client(cliente_id);
+            List<Cliente>list=taskService.get_task_b_client(cliente_id);
             resp.setSimpleData(list);
             resp.setCode("OK");
         }catch (Exception e){

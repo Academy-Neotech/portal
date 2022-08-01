@@ -17,8 +17,6 @@ Z
 *src/main/java/srl/neotech/model/Stato.java,0/a/0a29113a9b5c73167ecbd8f454c6d089b76c5c60
 E
 .jpb/jpb-settings.xml,4/4/44d3869e4ab8f5a6660709b629065ab6e5795b01
-w
-Gsrc/main/java/srl/neotech/requestresponse/GetRisorsaFromSkillRespo.java,e/f/ef1c7febffd6d7658c6b3822cedbeba18b9af62b
 h
 8src/main/java/srl/neotech/entity/ClienteHasServizio.java,4/5/4581fbec37d9367b064b7740e2465f6b1d57cb77
 [
@@ -59,10 +57,6 @@ l
 <src/main/java/srl/neotech/configuration/BootApplication.java,0/e/0e8562501362ba71ca6bf764a3755687a6ebb94c
 i
 9src/main/java/srl/neotech/repository/StatoRepository.java,a/5/a5b05a448639c57876ab774df070f3057bf4c9a8
-Z
-*src/main/java/srl/neotech/entity/Task.java,0/b/0bd682ad790a1e3534d30dcdd69d3b274659f3a9
-]
--src/main/java/srl/neotech/entity/Cliente.java,c/0/c0c52ae4feef6b2758a23eb242b97144a7fbc411
 :
 
 .classpath,3/5/354079a72b91a4280407c16a36f47d1986fd85a5
@@ -70,21 +64,13 @@ Z
 .project,f/8/f8b41ce76d7b80d2b47e91b5f92c15f00eccf187
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
-n
->src/main/java/srl/neotech/controller/RisorsaAPIController.java,c/0/c060f0004f50146e49ad522fe1108102e79e911d
-]
--src/main/java/srl/neotech/entity/Risorsa.java,c/d/cd91a10404e455a7ecd3d92775742856c0f0c22c
 a
 1src/main/java/srl/neotech/mapper/DozerMapper.java,3/a/3adde9d65e23a87372271a59540943fd498c9b98
 q
 Asrc/main/java/srl/neotech/requestresponse/GetRisorsaResponse.java,8/6/86df0cf9ba79715f62ccf843e9bd20d265b88f7d
-g
-7src/main/java/srl/neotech/services/RisorsaServices.java,0/4/0410ab52603eb05920a1dc2586420866d7d2fce6
-n
->src/main/java/srl/neotech/repository/RisorsaJPARepository.java,a/0/a0a24fe39c27819e24585b5db904f46b6a020776
-]
--src/main/java/srl/neotech/dao/RisorsaDAO.java,9/2/92d6d7811e468247e85fa720325623aa7179e0c3
 \
 ,src/main/java/srl/neotech/model/Risorsa.java,7/2/7250bbb91e32501e5cb02e9b54054dc00cac8388
+w
+Gsrc/main/java/srl/neotech/requestresponse/GetRisorsaFromSkillRespo.java,e/f/ef1c7febffd6d7658c6b3822cedbeba18b9af62b
 Z
 *src/main/java/srl/neotech/model/Skill.java,0/a/0ab5494bd2c68aa3c8301597a642ca3542c78945

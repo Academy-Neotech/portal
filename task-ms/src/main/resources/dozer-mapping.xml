@@ -5,11 +5,17 @@
         <field>
             <a>tasDescr</a>
             <b>tasDescr</b>
-
-
         </field>
     </mapping>
 
+    <mapping>
+        <class-a>srl.neotech.entity.Task</class-a>
+        <class-b>srl.neotech.model.Cliente</class-b>
+        <field>
+            <a>tasDescr</a>
+            <b>cliente_id</b>
+        </field>
+    </mapping>
 
 
 

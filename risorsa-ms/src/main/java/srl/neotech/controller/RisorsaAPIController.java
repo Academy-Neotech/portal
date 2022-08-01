@@ -27,7 +27,8 @@ public class RisorsaAPIController {
 
 
         try {
-            List<Risorsa> risorsaList = risorsaServices.get_risorsa(risorsa_nominativo);
+
+            List<Risorsa> risorsaList =risorsaServices.get_risorsa(risorsa_nominativo);
             responseBase.setSimpleData(risorsaList);
             responseBase.setCode("OK");
         } catch (Exception e) {
